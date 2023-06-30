@@ -1,0 +1,22 @@
+{
+  "name": "json",
+  "version": "1.0.0",
+  "description": "![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albatros444/frontendMentor2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albatros444/frontendMentor2/issues"
+  },
+  "homepage": "https://github.com/albatros444/frontendMentor2#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

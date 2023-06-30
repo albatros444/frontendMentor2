@@ -1,0 +1,18 @@
+.card_left {
+  width: 50%;
+  background-image: url("../images/image-product-desktop.jpg");
+  background-size: cover;
+  border-start-start-radius: 8px;
+  border-end-start-radius: 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .card_left {
+    width: 343px;
+    height: 240px;
+    background-image: url("../images/image-product-mobile.jpg");
+    border-end-start-radius: 0px;
+    border-start-end-radius: 8px;
+    flex-shrink: 0;
+  }
+}/*# sourceMappingURL=cardLeft.css.map */

@@ -1,0 +1,31 @@
+@import "globals.scss";
+@import "footer.scss";
+@import "cardLeft.scss";
+@import "cardRight.scss";
+
+body {
+  height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+}
+.cardBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  max-width: 1440px;
+  display: flex;
+  width: 602px;
+  height: 448px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .card {
+    flex-direction: column;
+    width: 343px;
+    height: 611px;
+  }
+}

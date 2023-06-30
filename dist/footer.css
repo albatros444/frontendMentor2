@@ -1,0 +1,16 @@
+footer {
+  position: absolute;
+  bottom: 15px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=footer.css.map */
